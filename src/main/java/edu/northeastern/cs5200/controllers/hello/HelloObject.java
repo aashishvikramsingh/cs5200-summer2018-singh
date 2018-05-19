@@ -1,0 +1,29 @@
+package edu.northeastern.cs5200.controllers.hello;
+
+import java.io.Serializable;
+
+public class HelloObject implements Serializable {
+	private String message;
+
+	 public String getMessage() {
+
+	  return message;
+
+	 }
+
+	 public void setMessage(String message) {
+
+	  this.message = message;
+
+	 }
+
+	 public HelloObject(String message) {
+
+	  this.message = message;
+
+	 }
+
+	 public HelloObject() {
+
+	 }
+}
